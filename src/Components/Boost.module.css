@@ -1,0 +1,188 @@
+.boost_container{
+    position: relative;
+    background-color: black;
+    height:100vh;
+    display: flex;
+    width: 100vw;
+        
+}
+.boost_stair1{
+    position: absolute;
+    width: 61.8vw;
+/* height: 131.826673vh; */
+/* top: -15vh; */
+top:0vh;
+bottom: 0vh;
+/* left: 37.18vw; */
+right: 0vw;
+
+}
+.boost_stair2{
+    position: absolute;
+    width: 30.64vw;
+height: 60vh;
+top: 40vh;
+right: 68.34vw;
+
+}
+.boost_burger{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    top: 52.5vh;
+    left: 64.3375vw;
+    
+}
+.boost_shoe{
+    position: absolute;
+    width: 9vw;
+height: 10vh;
+top: 53vh;
+left: 89.2456vw;
+
+
+}
+.boost_phone{
+    position: absolute;
+    /* width: 20vw; */
+height: 60vh;
+top: 29vh;
+left: 42vw;
+
+
+}
+.boost_hand{
+    position: absolute;
+    width: 10vw;
+height: 10vh;
+top: 16vh;
+left: 77vw;
+
+
+}
+.boost_coffee{
+    position: absolute;
+    width: 10vw;
+height: 12vh;
+top: 73vh;
+left: 70vw;
+
+
+}
+.boost_card{
+    position: absolute;
+    width: 11vw;
+height: 15vh;
+top: 30.6vh;
+left: 70vw;
+
+}
+
+.boost_details{
+position: absolute;
+width: 25.76866764275256vw;
+height: 31.08728943338438vh;
+top: 34.60949464012251vh;
+left: 15.446559297218155vw;
+
+}
+.boost{
+    width: 24.59vw;
+    height: 12.25vh;
+    font-family: Agrandir;
+font-size: 6.12vh;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+color: #00D54B;
+
+    
+}
+.details{
+    width: 24.59vw;
+height:  13.47vh;
+top: 14.39vh;
+font-family: Mulish;
+font-size: 34px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.30000001192092896px;
+text-align: left;
+color:white;
+
+}
+
+@media only screen and (max-device-width: 480px) {
+    .boost_stair1{
+        position: absolute;
+        height: 60vh;
+        width: 100vw;
+        top: 42vh;
+        right: 0vw;
+    }
+    .boost_stair2{
+        visibility: hidden;
+    }
+    .boost_details{
+        position: absolute;
+        width: 60.76vw;
+        height: 40.08vh;
+        top: 18.60vh;
+        left: 10.44;
+    }
+    .boost{
+        width: 70.59vw;
+        height: 6vh;
+        font-family: Agrandir;
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #00D54B;        
+        }
+    .details{
+        width: 70vw;
+        font-family: Mulish;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.30000001192092896px;
+        text-align: left;
+        color:white;
+        
+        }
+    .boost_phone{
+        position: absolute;
+            /* width: 20vw; */
+        height: 20vh;
+        top: 69vh;
+        left: 22vw;    
+    }
+    .boost_coffee{
+        position: absolute;
+        top: 78vh;
+        left: 57vw;
+    }
+    .boost_shoe{
+        position: absolute;
+        top: 72vh;
+        left: 88vw;
+    }
+    .boost_burger{
+        position: absolute;
+        top: 71vh;
+        left: 47vw;
+    }
+    .boost_card{
+        position: absolute;
+        top: 61vh;
+        left: 57vw;
+        height: 9vh;
+    }
+    .boost_hand{
+        position: absolute;
+        top:55vh;
+        left:67vw;
+        height: 6vh;
+    }
+}

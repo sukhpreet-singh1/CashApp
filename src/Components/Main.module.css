@@ -1,0 +1,119 @@
+.top_container{
+    height: 100vh;
+    position: relative;
+}
+.main_container{
+    z-index:1;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the item */
+    align-items: center; /* Vertically centers the item */
+    height:100vh;
+    background-color: black; 
+    background: url("./Images/Rays.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover; /* Make the background image cover the entire container */
+
+}
+.cash_container{
+    font-family: Agrandir;
+    font-size: 23vmin;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}   
+.mobile{
+    position: absolute; 
+    width: 60vw;
+    height: 60vh;
+    top: 25vh;
+    left: 20vw;
+    z-index: 0;
+}
+.app_container{
+    font-family: Agrandir;
+    font-size: 23vmin;
+    font-weight: 800;
+    line-height: 70%;
+    letter-spacing: 0.5px;
+    text-align: center;
+    z-index: 1;
+} 
+.cube{
+    position: absolute;
+    width: 10vw;
+    height: 10vh;
+    top: 9vh;
+    left: 15vw;
+}
+.stairs{
+    position: absolute;
+    width: 22vw;
+    height: 20vh;
+    top: 70vh;
+    left: 10vw;
+}
+.pillar{
+    position: absolute;
+    width: 27vw;
+    height: 30vh;
+    top: 70vh;
+    left: 58vw;
+    overflow: hidden;
+}
+.icon{
+    display: none;
+    
+}
+.longstairs{
+    position: absolute;
+    width: 22vw;
+    height: 28vh;
+    top: 15vh;
+    left: 72vw;
+}
+@media only screen and (max-device-width: 480px) {
+    .icon{
+        display: flex!important;
+        margin-left: 15px;
+        margin-top: 15px;
+        height: 25px;
+        width: 25px;
+        color: white;
+    }
+
+    .mobile{
+        position: absolute; 
+        width: 50vw;
+        height: 50vh;
+        top: 30vh;
+        left: 27vw;
+        z-index: 0;
+    }
+    .longstairs{
+        position: absolute;
+        width: 20vw;
+        height: 30vh;
+        top:5vh;
+        left: 70vw;
+    }
+    .pillar{
+        position: absolute;
+        width: 25vw;
+        height: 40vh;
+        top: 60vh;
+        left: 70vw;
+    }
+    .cash_container{
+        font-size: 70px;
+    }   
+   
+    .app_container{
+        font-size: 70px;
+    } 
+}
