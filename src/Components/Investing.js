@@ -18,20 +18,21 @@ function Investing() {
         <img alt="x" className={styles.investing_graph3} src={InvestingGraph3} />
         <img alt="x" className={styles.investing_bitcoin} src={InvestingBitcoin} />
         <img alt="x" className={styles.investing_stock} src={InvestingStock} />
+        <h2 className={styles.heading}>Investing</h2>
         <div className={styles.stock_details}>
             <div className={styles.title}>
-            Stocks
+              Stocks
             </div>
             <div className={styles.description}>
-            Whether you’re an expert or just getting started, Cash App is the fastest and most accessible way to invest in stocks. Start now with as little as $1.
+              Whether you’re an expert or just getting started, Cash App is the fastest and most accessible way to invest in stocks. Start now with as little as $1.
             </div>
         </div>
         <div className={styles.bitcoin_details}>
             <div className={styles.title}>
-            Bitcoin
+              Bitcoin
             </div>
             <div className={styles.description}>
-            Cash App is the fastest way to convert dollars to bitcoin. From your home screen, six taps are all it takes to stack sats, buy an entire bitcoin, or just see what its all about.
+              Cash App is the fastest way to convert dollars to bitcoin. From your home screen, six taps are all it takes to stack sats, buy an entire bitcoin, or just see what its all about.
             </div>
         </div>
         

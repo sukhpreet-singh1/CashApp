@@ -8,7 +8,6 @@
 }
 .pillar_Column1{
     position: absolute;
-    /* width: 49.29vw; */
     height: 48vh;
     top: 52%;
     left: 28.91vw;
@@ -16,108 +15,93 @@
 }
 .pillar_Column2{
     position: absolute;
-    /* width: 49.29vw; */
     height: 48.19vh;    
     top: 51.78vh;
     right: 87.60vw;
 }
-
 .pillar_Column3{
     position: absolute;
-    /* width: 10.79vw; */
     height: 52.19vh;
-    
     top: 35.39vh;
     left: 57.20vw;
-    
 }
 .pillar_medium_Column1{
     position: absolute;
     width: 10.59vw;
-height: 30.85vh;
-top: 46.13vh;
-left: 70.09vw;
-
+    height: 30.85vh;
+    top: 46.13vh;
+    left: 70.09vw;
 }
 .pillar_medium_Column2{
     position: absolute;
     width: 10.38vw;
-height: 30.85vh;
-top: 70.67vh;
-left: 50.16vw;
+    height: 30.85vh;
+    top: 70.67vh;
+    left: 50.16vw;
     z-index: 2;
 }
 .pillar_medium_Column3{
     position: absolute;
     width: 10.59vw;
-height: 30.85vh;
-top: 62.29vh;
-left: 41.40vw;
-z-index: 2;
+    height: 30.85vh;
+    top: 62.29vh;
+    left: 41.40vw;
+    z-index: 2;
 }
 .pillar_medium_Column4{
     position: absolute;
     width: 10vw;
-height: 28vh;
-top: 68vh;
-right: 78vw;
-z-index: 2;
+    height: 28vh;
+    top: 68vh;
+    right: 78vw;
+    z-index: 2;
 }
 .pillar_Small{
     position: absolute;
-    /* width: 135px; */
-height: 15vh;
-top: 73vh;
-left: 18vw;
+    height: 15vh;
+    top: 73vh;
+    left: 18vw;
 }
 .pillar_Large{
     position: absolute;
-    /* width: 210px; */
-height: 25vh;
-top: 68vh;
-left: 60vw;
-
+    height: 25vh;
+    top: 68vh;
+    left: 60vw;
 }
 .payment_Phone{
     position: absolute;
     width: 45vw;
-height: 50vh;
-top: 20vh;
-left: 25vw;
-
+    height: 50vh;
+    top: 20vh;
+    left: 25vw;
 }
 .payment_Details{
     display: flex;
     flex-direction: column;
     position: absolute;
     width:20vw;
-
-top: 32vh;
-left: 20vw;
-/* padding: 6px 0px 0px 1px; */
-gap: 24px;
-
+    top: 32vh;
+    left: 20vw;
 }
 .payment{
     font-family: Agrandir;
-font-size: 5vh;
-font-weight: 800;
-line-height: 40px;
-letter-spacing: 0px;
-text-align: left;
-color: #00D54B;
-
-
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1em;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #00D54B;
 }
 .details{
-    
-/* height: 88px; */
-font-family: Mulish;
-font-size: 2vh;
-font-weight: 500;
-line-height: 2vh;
-/* letter-spacing: 0.30000001192092896px; */
-text-align: justify;
+    width: 18.826vw;
+    height: 8vh;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.300px;
+    text-align: left;
+    color:black;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -138,11 +122,6 @@ text-align: justify;
     }
     
     .pillar_Column3{
-        /* position: absolute;
-        width: 79.29vw;
-        height: 78vh;
-        top: 35vh;
-        left: 25vw;    */
         display: none;
     }
     .pillar_medium_Column2{
@@ -158,8 +137,8 @@ text-align: justify;
         width: 15.38vw;
         height: 30.85vh;
         top: 72.29vh;
-    left: 31.40vw;
-    z-index: 2;
+        left: 31.40vw;
+        z-index: 2;
     }
     .pillar_medium_Column4{
         position: absolute;
@@ -174,47 +153,41 @@ text-align: justify;
         flex-direction: column;
         position: absolute;
         width:60vw;
-    
-    top: 12vh;
-    left: 20vw;
-    /* padding: 6px 0px 0px 1px; */
-    gap: 12px;
-    
+        top: 12vh;
+        left: 20vw;
+        gap: 12px;
     }
     .payment{
         font-family: Agrandir;
-    font-size: 4vh;
-    font-weight: 800;
-    line-height: 20px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #00D54B;
+        font-size: 4vh;
+        font-weight: 800;
+        line-height: 20px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #00D54B;
     }
     .details{
-    /* height: 88px; */
-    font-family: Mulish;
-    font-size: 2vh;
-    font-weight: 500;
-    line-height: 2vh;
-    /* letter-spacing: 0.30000001192092896px; */
-    text-align: left;
+        font-family: Mulish;
+        width: 60vw;
+        font-size: 2vh;
+        font-weight: 500;
+        line-height: 2vh;
+        text-align: left;
     }
     
     .payment_Phone{
         position: absolute;
         width: 95vw;
-    height: 80vh;
-    top: 15vh;
-    left: 6vw;
-    
+        height: 80vh;
+        top: 15vh;
+        left: 6vw;    
     }
     .pillar_medium_Column1{
         position: absolute;
         width: 10.59vw;
-    height: 30.85vh;
-    top: 66.13vh;
-    left: 45.09vw;
-    
+        height: 30.85vh;
+        top: 66.13vh;
+        left: 45.09vw;    
     }
     .pillar_Small{
        display: none;

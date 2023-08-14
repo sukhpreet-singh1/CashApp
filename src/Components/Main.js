@@ -8,6 +8,7 @@ import longstairs from "./Images/longstairs.svg";
 import stairs from "./Images/stairs.svg";
 import {MdMenu} from "react-icons/md";
 import Modal from './Modal';
+import Footer from './Footer';
 function Main() {
 
   const [showModal,setVisible]=useState(false);
@@ -26,13 +27,14 @@ function Main() {
         <img alt="x" className={styles.pillar} src={pillar}/>
         
         <div className={styles.main_container}>
-
           <div className={styles.cash_container}>CASH</div>
-          <div className={styles.mobile_container}>
-            <img alt="x" className={styles.mobile} src={Mobile} height={50} width={50}/>
-          </div>
+            <div className={styles.mobile_container}>
+              <img alt="x" className={styles.mobile} src={Mobile} height={50} width={50}/>
+            </div>
           <div className={styles.app_container}>APP</div>
+          <Footer/>
         </div>    
+        
     </div>
   )
 }

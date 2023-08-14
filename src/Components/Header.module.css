@@ -5,26 +5,25 @@
 }    
     
 }
-header {
-    
+header{
     color: #fff;
-   }
+}
 
-  nav ul {
+nav ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
     padding: 0;
-  }
+}
   
-  .list_item {
+.list_item{
     margin: 0;
-  }
+}
   
-  nav a {
+nav a{
     color: #fff;
     text-decoration: none;
-  }
+}
      
 
 
@@ -48,14 +47,12 @@ header {
     background-color: black;
 }
 
-.logo_image
-{
+.logo_image{
     height: 6vh;
     width: 6vw;
 }
 
-.eye_image
-{
+.eye_image{
     height: 5vh;
     width: 5vw;;
 }
@@ -72,6 +69,7 @@ header {
     z-index: -1;
     background-color: transparent;
 }
+
 .list_item{
     background-color: transparent;
     white-space: nowrap;

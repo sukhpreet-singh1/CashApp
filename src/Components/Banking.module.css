@@ -11,92 +11,88 @@
 .banking_column{
     position: absolute;
     width: 8vw;
-height: 39vh;
-top: 4.8vh;
-left: 3.8541666vw;
-z-index: 4;
+    height: 39vh;
+    top: 4.8vh;
+    left: 3.85vw;
+    z-index: 4;
 }
 .banking_tube{
     position: absolute;
     width: 7.8125vw;
-height: 31.2595777vh;
-top: 77vh;
-left: 27vw;
+    height: 31.25vh;
+    top: 77vh;
+    left: 27vw;
 }
 .banking_track2{
     position: absolute;
     width: 13.020vw;
-height: 31.95551vh;
-top: 2.18725vh;
-left:  68.90625vw;
-
+    height: 31.95vh;
+    top: 2.18725vh;
+    left:  68.90vw;
 }
 
 .banking_stair2{
     position: absolute;
-    width: 4.1666666vw;
-    height: 44.37944vh;
-    top: 50.470119vh;
-    left: 4.96875vw;
+    width: 4.166vw;
+    height: 44.37vh;
+    top: 50.470vh;
+    left: 4.965vw;
 }
 .banking_stair1{
     position: absolute;
-    width: 5.6875vw;
-    height: 50.2031vh;
-    top: 31.374501vh;   
-    left: 82.05208333vw;
+    width: 5.68vw;
+    height: 50.20vh;
+    top: 31.37vh;   
+    left: 82.05vw;
 }
 
 .banking_ramp2{
     position: absolute;
     width: 15.625vw;
-height: 38.74158vh;
-top: 61.79282vh;
-left: 11.1770833vw;
+    height: 38.74vh;
+    top: 61.79vh;
+    left: 11.177vw;
 
 }
 .banking_ramp1{
     position: absolute;
-    width: 14.5833333vw;
-height: 37.321301vh;
-top: 26.4302788vh;
-left: 57.09375vw;
+    width: 14.58vw;
+    height: 37.32vh;
+    top: 26.43vh;
+    left: 57.09vw;
 }
 
 .banking_phone{
     position: absolute;
-    /* margin: auto; */
-    /* width: 38.22916vh; */
-height: 50.27254166vh;
-top: 25vh;
-left: 38vw;
-z-index: 2;
+    height: 50.27vh;
+    top: 25vh;
+    left: 38vw;
+    z-index: 2;
 }
 
 .banking_track1{
-position: absolute;
-width: 14.16vw;
-height: 33.14vh;
-top: 16vh;
-left: 30.1vw;
-
+    position: absolute;
+    width: 14.16vw;
+    height: 33.14vh;
+    top: 16vh;
+    left: 30.1vw;
 }
 
 .banking_monster{
-position: absolute;
+    position: absolute;
     width: 6.25vw;
-height: 15.86929vh;
-top: 80vh;
-left: 82.35416vw;
+    height: 15.86vh;
+    top: 80vh;
+    left: 82.35416vw;
 
 }
 
 .banking_cubes{
     position: absolute;
     width: 15.5vw;
-height: 27.712164vh;
-top: 65vh;
-left: 60.427vw;
+    height: 27.71vh;
+    top: 65vh;
+    left: 60.427vw;
 
 }
 .hole_container{
@@ -112,33 +108,29 @@ left: 60.427vw;
 }
 .banking_hole1{
     height: 35vh;
-    width: 19.791666vw;
+    width: 19.791vw;
     object-fit: fill;
-
-
-z-index:3;
-
+    z-index:3;
 }
 .banking_hole2{
     position: absolute;
-    width: 19.791666vw;
-height: 31.855907vh;
-top: 79vh;
-left: 44.91666vw;
-
+    width: 19.791vw;
+    height: 31.855vh;
+    top: 79vh;
+    left: 44.91666vw;
 }
 .banking_details{
     position: absolute;
     width: 20vw;
-height: 10vh;
-top: 44vh;
-left: 18vw;
-padding: 6px 16px 0px 1px;
+    height: 10vh;
+    top: 44vh;
+    left: 18vw;
+    padding: 6px 16px 0px 1px;
 
 }
 .banking{
     font-family: Agrandir;
-    font-size: 5vh;
+    font-size: 36px;
     font-weight: 800;
     line-height: 40px;
     letter-spacing: 0px;
@@ -147,22 +139,21 @@ padding: 6px 16px 0px 1px;
 }
 
 .details{
-width: 16.822916vw;
-height: 8vh;
-font-family: Mulish;
-font-size: 1.75vh;
-font-weight: 400;
-line-height: 2vh;
-letter-spacing: 0.30000001192092896px;
-text-align: left;
-color:black;
+    width: 16.826vw;
+    height: 8vh;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.300px;
+    text-align: left;
+    color:black;
 }
 @media only screen and (max-device-width: 480px) {
     .banking_phone{
         position: absolute;
-        /* margin: auto; */
-        width: 38.22916vh;
-        height: 40.27254166vh;
+        width: 38.22vh;
+        height: 40.27vh;
         top: 30vh;
         left: 18vw;
         z-index: 2;
@@ -172,7 +163,7 @@ color:black;
         width: 15vw;
         height: 39vh;
         top: 6.8vh;
-        left: 3.8541666vw;
+        left: 3.85vw;
         z-index: 4;
     }
     .banking_tube{
@@ -181,40 +172,40 @@ color:black;
     .banking_track2{
         position: absolute;
         width: 25.020vw;
-    height: 31.95551vh;
-    top: 9.18725vh;
-    left:  67.90625vw;
+        height: 31.95vh;
+        top: 9.187vh;
+        left:  67.90vw;
     
     }
     .banking_stair2{
         position: absolute;
-        width: 10.1666666vw;
-        height: 44.37944vh;
-        top: 30.470119vh;
-        left: 6.96875vw;
+        width: 10.16vw;
+        height: 44.37vh;
+        top: 30.479vh;
+        left: 6.95vw;
     }
     .banking_stair1{
         position: absolute;
-        width: 10.6875vw;
-        height: 50.2031vh;
-        top: 25.374501vh;   
-        left: 85.05208333vw;
+        width: 10.68vw;
+        height: 50.20vh;
+        top: 25.37vh;   
+        left: 85.052vw;
     }
     
     .banking_ramp2{
         position: absolute;
         width: 30.625vw;
-    height: 38.74158vh;
-    top: 62.79282vh;
-    left: 4.1770833vw;
+        height: 38.74vh;
+        top: 62.79vh;
+        left: 4.177vw;
     
     }
     .banking_ramp1{
         position: absolute;
-        width: 24.5833333vw;
-    height: 37.321301vh;
-    top: 16.4302788vh;
-    left: 57.09375vw;
+        width: 24.58vw;
+        height: 37.32vh;
+        top: 16.43vh;
+        left: 57.09vw;
     }
     .banking_details{
         position: absolute;
@@ -234,14 +225,14 @@ color:black;
     }
     
     .details{
-    width:60vw;
-    font-family: Mulish;
-    font-size: 1.75vh;
-    font-weight: 400;
-    line-height: 2vh;
-    letter-spacing: 0.30000001192092896px;
-    text-align: left;
-    color:black;
+        width:60vw;
+        font-family: Mulish;
+        font-size: 1.75vh;
+        font-weight: 400;
+        line-height: 2vh;
+        letter-spacing: 0.30px;
+        text-align: left;
+        color:black;
     }
     .banking_ramp1{
         visibility: hidden;
@@ -251,10 +242,10 @@ color:black;
     }
     .banking_hole2{
         position: absolute;
-        width: 39.791666vw;
-        height: 31.855907vh;
+        width: 39.79vw;
+        height: 31.85vh;
         top: 79vh;
-        left: 44.91666vw;
+        left: 44.91vw;
     
     }
     .banking_monster{
@@ -263,9 +254,9 @@ color:black;
     .banking_cubes{
         position: absolute;
         width: 30.5vw;
-    height: 27.712164vh;
-    top: 70vh;
-    left: 60.427vw;
-    
+        height: 27.71vh;
+        top: 70vh;
+        left: 60.42vw;
+        
     }   
 }

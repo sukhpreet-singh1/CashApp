@@ -6,9 +6,11 @@ import Main from './Components/Main';
 import Payments from './Components/Payments';
 import "./App.css";
 import Investing from './Components/Investing';
+import Footer from './Components/Footer';
 function App() {
   return (
     <div className="App">
+      
       <Header/>
       <Main className="page"/>
       <Payments className="page"/>

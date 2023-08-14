@@ -24,7 +24,7 @@ function Payments() {
                 Payments
             </div>
             <div className={styles.details}>
-                Send and receive money with anyone, donate  to an important cause, or tip professionals. Just enter a $cashtag, phone number, or scan their  QR code to pay.
+                Send and receive money with anyone, donate to an important cause, or tip professionals. Just enter a $cashtag, phone number, or scan their  QR code to pay.
             </div>
         </div>
 

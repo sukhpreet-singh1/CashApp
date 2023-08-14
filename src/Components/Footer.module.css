@@ -1,0 +1,51 @@
+.top_container{
+    display: flex;
+    position: absolute;
+    bottom: 2vh;
+    left: 5vh;
+    align-items: center; 
+    width: 100vw;
+}
+.logo_image{
+    padding: 5px;
+}
+
+.start_container{
+    display: flex;
+    width: 20vw;
+}
+
+.mid_container{
+    display: flex;
+    justify-content: center;
+    width: 45vw;
+}
+.para_container{
+    width: 70%;
+}
+
+p{
+    font-size: 10px;
+}
+
+.end_container{
+    
+    display: flex;
+    width: 30vw;
+}
+.icon_container{
+    display: flex;
+    width: 30%;
+}
+
+.icon{
+    display: flex;
+    width: 12%;
+    padding: 5px;
+}
+
+@media only screen and (max-device-width: 480px){
+    .top_container{
+        display: none;
+    }   
+}

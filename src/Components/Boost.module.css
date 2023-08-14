@@ -4,113 +4,92 @@
     height:100vh;
     display: flex;
     width: 100vw;
-        
 }
 .boost_stair1{
     position: absolute;
     width: 61.8vw;
-/* height: 131.826673vh; */
-/* top: -15vh; */
-top:0vh;
-bottom: 0vh;
-/* left: 37.18vw; */
-right: 0vw;
-
+    top:0vh;
+    bottom: 0vh;
+    right: 0vw;
 }
 .boost_stair2{
     position: absolute;
     width: 30.64vw;
-height: 60vh;
-top: 40vh;
-right: 68.34vw;
+    height: 60vh;
+    top: 40vh;
+    right: 68.34vw;
 
 }
 .boost_burger{
     position: absolute;
     width: 10vw;
     height: 10vh;
-    top: 52.5vh;
-    left: 64.3375vw;
-    
+    top: 56.5vh;
+    left: 65.33vw;
 }
 .boost_shoe{
     position: absolute;
     width: 9vw;
-height: 10vh;
-top: 53vh;
-left: 89.2456vw;
-
-
+    height: 10vh;
+    top: 58vh;
+    left: 90.24vw;
 }
 .boost_phone{
     position: absolute;
-    /* width: 20vw; */
-height: 60vh;
-top: 29vh;
-left: 42vw;
-
-
+    height: 60vh;
+    top: 30vh;
+    left: 46vw;
 }
 .boost_hand{
     position: absolute;
     width: 10vw;
-height: 10vh;
-top: 16vh;
-left: 77vw;
-
-
+    height: 10vh;
+    top: 16vh;
+    left: 77vw;
 }
 .boost_coffee{
     position: absolute;
     width: 10vw;
-height: 12vh;
-top: 73vh;
-left: 70vw;
-
-
+    height: 12vh;
+    top: 73vh;
+    left: 70vw;
 }
 .boost_card{
     position: absolute;
     width: 11vw;
-height: 15vh;
-top: 30.6vh;
-left: 70vw;
-
+    height: 15vh;
+    top: 30.6vh;
+    left: 70vw;
 }
 
 .boost_details{
-position: absolute;
-width: 25.76866764275256vw;
-height: 31.08728943338438vh;
-top: 34.60949464012251vh;
-left: 15.446559297218155vw;
-
+    position: absolute;
+    width: 25.76vw;
+    height: 31.08vh;
+    top: 34.60vh;
+    left: 15.44vw;
 }
 .boost{
     width: 24.59vw;
     height: 12.25vh;
     font-family: Agrandir;
-font-size: 6.12vh;
-font-weight: 500;
-line-height: 70px;
-letter-spacing: 0px;
-text-align: left;
-color: #00D54B;
-
-    
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1em;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #00D54B;    
 }
 .details{
-    width: 24.59vw;
-height:  13.47vh;
-top: 14.39vh;
-font-family: Mulish;
-font-size: 34px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0.30000001192092896px;
-text-align: left;
-color:white;
-
+    width: 25.826vw;
+    height: 8vh;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: 0.300px;
+    text-align: left;
+    color:white;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -135,25 +114,26 @@ color:white;
         width: 70.59vw;
         height: 6vh;
         font-family: Agrandir;
+        line-height: 1em;
         font-size: 20px;
         font-weight: 800;
         letter-spacing: 0px;
         text-align: left;
         color: #00D54B;        
-        }
+    }
     .details{
         width: 70vw;
         font-family: Mulish;
         font-size: 12px;
         font-weight: 400;
-        letter-spacing: 0.30000001192092896px;
+        letter-spacing: 0.300px;
         text-align: left;
-        color:white;
-        
-        }
+        color:white;   
+        line-height: 1em;
+    
+    }
     .boost_phone{
         position: absolute;
-            /* width: 20vw; */
         height: 20vh;
         top: 69vh;
         left: 22vw;    
