@@ -9,10 +9,11 @@ import Investing from './Components/Investing';
 import Footer from './Components/Footer';
 function App() {
   return (
+
     <div className="App">
       
       <Header/>
-      <Main className="page"/>
+      <Main className="pages"/>
       <Payments className="page"/>
       <Banking className="page"/>
       <Boost className="page"/> 
