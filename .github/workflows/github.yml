@@ -1,0 +1,60 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - feature/*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Test
+        run: npm test
+
+  code-review:
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/feature/main'
+    steps:
+      - name: Code Review
+        uses: actions/github-script@v3
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const { data: pulls } = await octokit.pulls.list({
+              owner,
+              repo,
+              state: 'open',
+              head: context.ref
+            });
+            if (pulls.length === 0) {
+              core.setFailed('No open pull requests found for the feature branch.');
+            }
+
+            // Perform your code review checks here
+
+            // If code review passes, you can merge the changes to the development branch
+            const { data: merge } = await octokit.pulls.merge({
+              owner,
+              repo,
+              pull_number: pulls[0].number
+            });
+            if (!merge.merged) {
+              core.setFailed('Failed to merge pull request.');
+            }
