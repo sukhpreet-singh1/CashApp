@@ -29,7 +29,7 @@ function Header() {
       <header>
           <nav> 
             <ul>        
-              {headerLinks.map((item)=> <li className={styles.list_item}>{item}</li>)}
+              {headerLinks.map((item,index)=> <li key={index} className={styles.list_item}>{item}</li>)}
             </ul>
           </nav>
       </header>
