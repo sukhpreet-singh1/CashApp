@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Header from './Header'
 import styles from "./Main.module.css";
 import Mobile from "./Images/Mobile.svg";
 import cube from "./Images/cube.svg";
