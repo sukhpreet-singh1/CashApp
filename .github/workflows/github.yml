@@ -6,7 +6,6 @@ on:
       - feature/*
   pull_request:
     types: [opened, synchronize, reopened]
-
 jobs:
   # lint:
   #   runs-on: ubuntu-latest
